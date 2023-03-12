@@ -23,7 +23,7 @@ pipeline {
 
                 git url: 'https://github.com/ChanJun-Park/temp1',
                     branch: 'master',
-                    credentialsId: 'jenkinsgit'
+                    credentialsId: 'gittest'
             }
 
             post {
